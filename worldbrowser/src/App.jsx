@@ -46,7 +46,7 @@ const TOOLS_LIST = [
 const MARKET_CATS = ["🌾 Crops","🐄 Animals","🛠️ Tools","👗 Clothes","🏠 Housing","💊 Medicine","📱 Electronics","🚗 Transport"];
 
 // ─── DAILY LIMIT ─────────────────────────────────────────────────────────────
-const DAILY_LIMIT = 30;
+const DAILY_LIMIT = 9999
 const getTodayKey = () => `wb_searches_${new Date().toDateString()}`;
 const getSearchCount = () => parseInt(localStorage.getItem(getTodayKey()) || "0");
 const bumpSearchCount = () => {
