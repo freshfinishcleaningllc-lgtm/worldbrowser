@@ -5,7 +5,7 @@ import { useState, useRef, useEffect } from "react";
 // In local dev with "netlify dev" it also works automatically
 const API_URL = "/.netlify/functions/ai";
 
-const LANGS = const LANGS = ["English","Spanish","French","Portuguese","Swahili","Arabic","Hindi","Bengali","Hausa","Amharic","Yoruba","Zulu","Chinese","Indonesian","Russian","Urdu","Vietnamese"];
+const LANGS = ["English","Spanish","French","Portuguese","Swahili","Arabic","Hindi","Bengali","Hausa","Amharic","Yoruba","Zulu","Chinese","Indonesian","Russian","Urdu","Vietnamese"];
 const NAV = [
   {id:"home",icon:"🏠",label:"Home"},{id:"search",icon:"🔍",label:"Search"},
   {id:"news",icon:"📰",label:"News"},{id:"learn",icon:"🎓",label:"Learn"},
