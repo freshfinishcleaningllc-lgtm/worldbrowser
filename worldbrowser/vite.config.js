@@ -7,11 +7,11 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg', 'apple-touch-icon.png', 'icons/*.png'],
+      includeAssets: ['favicon.svg'],
       manifest: {
         name: 'WorldBrowser AI',
         short_name: 'WorldBrowser',
-        description: 'Free AI browser for everyone — search, news, health, education, marketplace & community in 12 languages.',
+        description: 'Free AI browser for everyone — search, news, health, education, marketplace & community in 17 languages.',
         theme_color: '#040d1a',
         background_color: '#040d1a',
         display: 'standalone',
@@ -19,11 +19,8 @@ export default defineConfig({
         scope: '/',
         start_url: '/',
         icons: [
-  { src: '/favicon.svg', sizes: '192x192', type: 'image/svg+xml' },
-  { src: '/favicon.svg', sizes: '512x512', type: 'image/svg+xml', purpose: 'any maskable' }
-]
-          
-          
+          { src: '/favicon.svg', sizes: '192x192', type: 'image/svg+xml' },
+          { src: '/favicon.svg', sizes: '512x512', type: 'image/svg+xml', purpose: 'any maskable' }
         ]
       },
       workbox: {
